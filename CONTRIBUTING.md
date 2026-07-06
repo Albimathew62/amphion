@@ -1,4 +1,4 @@
-# 🛠️ Amphion — Engineering & Build Guide
+#  Amphion — Engineering & Build Guide
 
 This document covers setting up the Amphion development environment, the technology stack,
 and how to build the Windows installer from source.
@@ -9,7 +9,7 @@ only and are not part of the build.
 
 ---
 
-## 🏗️ Prerequisites
+##  Prerequisites
 
 | Tool | Version | Notes |
 |------|---------|-------|
@@ -21,7 +21,7 @@ only and are not part of the build.
 
 ---
 
-## 📐 Architecture
+##  Architecture
 
 Amphion is three cooperating layers:
 
@@ -43,7 +43,7 @@ Amphion is three cooperating layers:
 
 ---
 
-## 🚀 Environment Setup
+##  Environment Setup
 
 **Backend (one-time)**
 ```powershell
@@ -60,7 +60,7 @@ npm install
 
 ---
 
-## 🧪 Running Locally
+##  Running Locally
 
 **Option A — browser dev (fast UI iteration)**
 ```powershell
@@ -86,7 +86,7 @@ npx tauri dev      # opens the Tauri window and auto-starts the backend sidecar
 
 ---
 
-## 📦 Building the Installer
+##  Building the Installer
 
 One command does everything — freezes the backend, copies the sidecar, builds the frontend,
 and bundles the Tauri NSIS installer:
@@ -105,7 +105,7 @@ Under the hood:
 
 ---
 
-## ✅ Before Opening a PR
+##  Before Opening a PR
 
 - **Typecheck / build the frontend:** `cd windows\frontend && npm run build`
 - Keep changes scoped to `windows/`; do not modify the root Android reference sources.
@@ -115,7 +115,7 @@ Under the hood:
 
 ---
 
-## ⚖️ License
+##  License
 
 Amphion is licensed under **GPL-3.0** (see [`LICENSE`](LICENSE)). By contributing, you agree
 your contributions are licensed under the same terms.
