@@ -1,0 +1,6 @@
+# Rust / Tauri build output
+/target
+/gen
+
+# Bundled sidecar binaries (built by build.ps1 from the backend)
+/binaries

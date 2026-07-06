@@ -1,0 +1,96 @@
+@import "tailwindcss";
+
+/* Violet-seeded dark scheme + neutral grays (Spotify-style) */
+@theme {
+  --font-sans: "Inter", system-ui, "Segoe UI", sans-serif;
+
+  --color-primary: #7c6fe0;
+  --color-on-primary: #ffffff;
+  --color-primary-container: #4b3f9e;
+  --color-on-primary-container: #e6e1ff;
+  --color-secondary: #c8c2ec;
+  --color-on-secondary: #2a2450;
+  --color-secondary-container: #2a2450;
+  --color-on-secondary-container: #e6e1ff;
+  --color-surface: #0d0d0d;
+  --color-surface-container: #151515;
+  --color-surface-container-high: #1e1e1e;
+  --color-surface-container-highest: #262626;
+  --color-on-surface: #ececec;
+  --color-on-surface-variant: #9a9a9a;
+  --color-outline: #6b6b6b;
+  --color-outline-variant: #262626;
+  --color-error: #e8564a;
+}
+
+/* rgb triplet (not a Tailwind token) for rgba() glow shadows; live-swapped by accent picker */
+:root {
+  --glow-rgb: 124 111 224;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  @apply bg-surface text-on-surface font-sans antialiased;
+}
+
+input[type="range"] {
+  accent-color: var(--color-primary);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-outline-variant);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #3a3a3a;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.elevate-1 {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+}
+.elevate-2 {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+}
+.elevate-glow {
+  box-shadow: 0 8px 24px rgba(var(--glow-rgb) / 0.3);
+}
+
+@keyframes amphionRing {
+  0% {
+    transform: scale(1);
+    opacity: 0.55;
+  }
+  70% {
+    transform: scale(1.9);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1.9);
+    opacity: 0;
+  }
+}
+.amphion-ring {
+  position: absolute;
+  inset: 0;
+  border-radius: 9999px;
+  border: 2px solid var(--color-primary);
+  animation: amphionRing 1.5s ease-out infinite;
+  pointer-events: none;
+}

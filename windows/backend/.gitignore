@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+*.db
+browser.json
+oauth.json
+.env
+# Downloaded audio — user data + copyrighted; must never be committed
+downloads/
+# PyInstaller output
+build/
+dist/

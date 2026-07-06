@@ -1,0 +1,82 @@
+# === Amphion (Windows desktop) ===
+# Per-folder .gitignores under windows/ also apply; this is the repo-root safety net.
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# --- Editors / IDEs ---
+.idea/
+.vscode/
+.vs/
+*.iml
+*.suo
+*.swp
+*~
+
+# --- Secrets / local config (never commit) ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.jks
+*.keystore
+browser.json
+oauth.json
+local.properties
+
+# --- Logs / temp ---
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.tmp
+*.bak
+
+# --- Python (backend) ---
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# --- App data (user + copyrighted; never commit) ---
+*.db
+*.sqlite
+*.sqlite3
+downloads/
+
+# --- Node (frontend) ---
+node_modules/
+dist/
+dist-ssr/
+.vite/
+.eslintcache
+*.tsbuildinfo
+
+# --- Rust / Tauri (shell) ---
+# NOTE: Cargo.lock IS committed (this is an application, not a library).
+target/
+gen/
+**/*.rs.bk
+*.pdb
+# Bundled sidecar binary — a build product (built by build.ps1)
+binaries/
+
+# --- Build output ---
+build/
+# Installers / binaries — distribute via GitHub Releases, never commit to the repo
+*.exe
+*.msi
+*-setup.exe
+
+# --- Internal project notes (not published) ---
+claude.md
