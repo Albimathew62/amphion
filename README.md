@@ -13,10 +13,10 @@
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black&labelColor=18181B)
 ![Tauri](https://img.shields.io/badge/Tauri-24C8DB?style=for-the-badge&logo=tauri&logoColor=white&labelColor=18181B)
 
-[![License](https://img.shields.io/github/license/Albimathew62/amphionre?style=for-the-badge&labelColor=18181B&color=EF4444)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/Albimathew62/amphionre?style=for-the-badge&labelColor=18181B&color=F59E0B)](https://github.com/Albimathew62/amphionre/stargazers)
-[![Release](https://img.shields.io/github/v/release/Albimathew62/amphionre?style=for-the-badge&labelColor=18181B&color=3B82F6)](https://github.com/Albimathew62/amphionre/releases/latest)
-[![Last commit](https://img.shields.io/github/last-commit/Albimathew62/amphionre?style=for-the-badge&labelColor=18181B&color=10B981)](https://github.com/Albimathew62/amphionre/commits)
+[![License](https://img.shields.io/github/license/Albimathew62/amphion?style=for-the-badge&labelColor=18181B&color=EF4444)](LICENSE)
+[![Stars](https://img.shields.io/github/stars/Albimathew62/amphion?style=for-the-badge&labelColor=18181B&color=F59E0B)](https://github.com/Albimathew62/amphion/stargazers)
+[![Release](https://img.shields.io/github/v/release/Albimathew62/amphion?style=for-the-badge&labelColor=18181B&color=3B82F6)](https://github.com/Albimathew62/amphion/releases/latest)
+[![Last commit](https://img.shields.io/github/last-commit/Albimathew62/amphion?style=for-the-badge&labelColor=18181B&color=10B981)](https://github.com/Albimathew62/amphion/commits)
 
 </div>
 
@@ -38,7 +38,7 @@ SQLite, and pulls synced lyrics from lrclib.net — no ads, no login required, n
 ## 📥 Download
 
 Grab the latest Windows installer from the
-**[Releases page](https://github.com/Albimathew62/amphionre/releases/latest)**
+**[Releases page](https://github.com/Albimathew62/amphion/releases/latest)**
 (`Amphion_x64-setup.exe`).
 
 > The installer is unsigned, so Windows SmartScreen may warn "Windows protected your PC" →
@@ -99,7 +99,7 @@ FastAPI backend
 ## 📂 Project Structure
 
 ```
-amphionre/
+amphion/
 ├── windows/
 │   ├── backend/          # FastAPI + ytmusicapi + yt-dlp (Python)
 │   │   ├── app/          # routers, services, db models
@@ -122,8 +122,8 @@ amphionre/
 
 **Clone**
 ```powershell
-git clone https://github.com/Albimathew62/amphionre.git
-cd amphionre
+git clone https://github.com/Albimathew62/amphion.git
+cd amphion
 ```
 
 **One-time backend setup**
