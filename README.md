@@ -2,7 +2,7 @@
 
 <img src="windows/frontend/public/logo-mark.png" width="110" alt="Amphion" />
 
-# 🎵 Amphion
+#  Amphion
 
 ### The YouTube Music player for Windows you always wanted
 
@@ -162,7 +162,7 @@ See [`windows/README.md`](windows/README.md) and [`CONTRIBUTING.md`](CONTRIBUTIN
 Amphion stands on the shoulders of great open-source projects:
 
 - **[Velune](https://github.com/nikhilvishwakarma00/Velune)** — the Android app whose
-  architecture and logic Amphion was ported from
+  architecture and logic Amphion was inspired from
 - **[ytmusicapi](https://github.com/sigma67/ytmusicapi)** — YouTube Music API
 - **[yt-dlp](https://github.com/yt-dlp/yt-dlp)** — stream extraction
 - **[lrclib.net](https://lrclib.net)** — synced lyrics
