@@ -6,7 +6,7 @@
 
 ### The YouTube Music player for Windows you always wanted
 
-🚫 No Ads • 💰 No Subscription • ⚡ Full Control
+ No Ads •  No Subscription •  Full Control
 
 ![Platform](https://img.shields.io/badge/Platform-Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white&labelColor=18181B)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=18181B)
@@ -22,7 +22,7 @@
 
 ---
 
-## 🚀 What is Amphion?
+##  What is Amphion?
 
 **Amphion** is a native Windows desktop music player for **YouTube Music** — a spiritual
 port of the open-source Android app [Velune](https://github.com/nikhilvishwakarma00/Velune),
@@ -31,11 +31,11 @@ rebuilt from the ground up in Python, React, and Tauri.
 It talks to YouTube Music for search, metadata, and streams, keeps your library locally in
 SQLite, and pulls synced lyrics from lrclib.net — no ads, no login required, no telemetry.
 
-> 💡 This is YouTube Music — *but unlocked, on your desktop.*
+>  This is YouTube Music — *but unlocked, on your desktop.*
 
 ---
 
-## 📥 Download
+##  Download
 
 Grab the latest Windows installer from the
 **[Releases page](https://github.com/Albimathew62/amphion/releases/latest)**
@@ -47,22 +47,22 @@ Grab the latest Windows installer from the
 
 ---
 
-## ✨ Features
+##  Features
 
-### 🎵 Core
+### Core
 - Search songs, albums, artists & playlists
 - Personalized home feed & radio autoplay
 - Local library — liked songs, play history, custom playlists
 - Import your existing YouTube Music playlists
 - Downloads for offline playback
 
-### 🔊 Audio Engine
+###  Audio Engine
 - Gapless playback
 - Crossfade (tunable)
 - Loudness normalization (EBU R128)
 - Quality tiers (Auto / Low / High / Highest)
 
-### 🎨 Interface
+###  Interface
 - Clean, dark **Material 3**-inspired UI (Poppins + Material Symbols)
 - Adaptive full-screen player — background tinted from the album artwork
 - Real-time **synced lyrics** with active-line highlight
@@ -71,7 +71,7 @@ Grab the latest Windows installer from the
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 | Layer | Stack |
 |------|------|
@@ -96,7 +96,7 @@ FastAPI backend
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 amphion/
@@ -115,7 +115,7 @@ amphion/
 
 ---
 
-## 🏃 Getting Started
+##  Getting Started
 
 **Prerequisites:** Windows 10/11 · Python 3.11+ · Node.js 20+ · Rust toolchain · WebView2
 (preinstalled on Windows 11).
@@ -157,7 +157,7 @@ See [`windows/README.md`](windows/README.md) and [`CONTRIBUTING.md`](CONTRIBUTIN
 
 ---
 
-## 🙌 Credits
+##  Credits
 
 Amphion stands on the shoulders of great open-source projects:
 
@@ -170,7 +170,7 @@ Amphion stands on the shoulders of great open-source projects:
 
 ---
 
-## ⚖️ Legal
+##  Legal
 
 Amphion is an independent client and is **not affiliated with YouTube or Google**. Please
 support artists through official platforms ❤️
